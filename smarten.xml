@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	
+	<listeners>
+		<listener
+			class-name="com.smarten.utility.ExtentListenerClass"></listener>
+	</listeners>
+	
+	
+	
+  <test  name="Test">
+	  <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.smarten.testclass.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
